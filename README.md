@@ -12,6 +12,18 @@ It is expected that the image contains a system supported by [cloud-init](https:
 
 Configuration details of the instance itself should be retrieved from Ganeti's metadata-daemon (`metad`).
 
+### Variants
+
+TBD
+
+### Variant Parameters
+
+TBD
+
+### OS Parameters
+
+TBD
+
 ### Hooks
 
 The OS provider may implement a hook system which lets users add additional steps to the provisioning process. Hooks may be executed _before_ the image is downloaded/opened/converted or _after_ it has been written to the blockdevice. 
