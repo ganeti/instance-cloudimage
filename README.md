@@ -10,7 +10,7 @@ Images should be accessible through a local filesystem path or can be retrieved 
 
 It is expected that the image contains a system supported by [cloud-init](https://cloud-init.io/) which does take care of e.g. expanding the root filesystem to the full disk size upon first boot and also configure basic elements like networking.
 
-Configuration details of the instance itself should be retrieved from Ganeti's metadata-daemon (`metad`).
+Configuration details of the instance itself should be retrieved from Ganeti's metadata-daemon (`metad`). This may require modification of Ganeti itself, which will be documented here if needed.
 
 ### Variants
 
