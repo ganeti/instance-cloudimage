@@ -1,4 +1,4 @@
-# instance-simpleimage
+# instance-cloudimage
 
 ## Design Guidelines
 
